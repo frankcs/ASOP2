@@ -6,6 +6,8 @@
 mkdir -p output
 
 gcc Trabajo2/fuente1.c -o output/Ej1
+gcc Trabajo2/fuente2.c -o output/Ej2
 chmod 777 output/Ej1
+chmod 777 output/Ej2
 
-./output/Ej1
+./output/Ej2
