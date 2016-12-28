@@ -3,3 +3,9 @@
 #gcc esto y lo otro
 #./Trabajo2/Ej2
 
+mkdir -p output
+
+gcc Trabajo2/fuente1.c -o output/Ej1
+chmod 777 output/Ej1
+
+./output/Ej1
